@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica-Cram.eot');
+    src: url('Coolvetica-Cram.eot?#iefix') format('embedded-opentype'),
+        url('Coolvetica-Cram.woff2') format('woff2'),
+        url('Coolvetica-Cram.woff') format('woff'),
+        url('Coolvetica-Cram.ttf') format('truetype'),
+        url('Coolvetica-Cram.svg#Coolvetica-Cram') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica-Cond.eot');
+    src: url('Coolvetica-Cond.eot?#iefix') format('embedded-opentype'),
+        url('Coolvetica-Cond.woff2') format('woff2'),
+        url('Coolvetica-Cond.woff') format('woff'),
+        url('Coolvetica-Cond.ttf') format('truetype'),
+        url('Coolvetica-Cond.svg#Coolvetica-Cond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica-HeavyComp.eot');
+    src: url('Coolvetica-HeavyComp.eot?#iefix') format('embedded-opentype'),
+        url('Coolvetica-HeavyComp.woff2') format('woff2'),
+        url('Coolvetica-HeavyComp.woff') format('woff'),
+        url('Coolvetica-HeavyComp.ttf') format('truetype'),
+        url('Coolvetica-HeavyComp.svg#Coolvetica-HeavyComp') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica-Regular.eot');
+    src: url('Coolvetica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Coolvetica-Regular.woff2') format('woff2'),
+        url('Coolvetica-Regular.woff') format('woff'),
+        url('Coolvetica-Regular.ttf') format('truetype'),
+        url('Coolvetica-Regular.svg#Coolvetica-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica-Italic.eot');
+    src: url('Coolvetica-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Coolvetica-Italic.woff2') format('woff2'),
+        url('Coolvetica-Italic.woff') format('woff'),
+        url('Coolvetica-Italic.ttf') format('truetype'),
+        url('Coolvetica-Italic.svg#Coolvetica-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Magical Nordic PERSONAL USE';
+    src: url('MagicalNordicPERSONALUSE-Regular.eot');
+    src: url('MagicalNordicPERSONALUSE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MagicalNordicPERSONALUSE-Regular.woff2') format('woff2'),
+        url('MagicalNordicPERSONALUSE-Regular.woff') format('woff'),
+        url('MagicalNordicPERSONALUSE-Regular.ttf') format('truetype'),
+        url('MagicalNordicPERSONALUSE-Regular.svg#MagicalNordicPERSONALUSE-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Magical Nordic Symbols PERSON';
+    src: url('MagicalNordicSymbolsPERSON-Regular.eot');
+    src: url('MagicalNordicSymbolsPERSON-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MagicalNordicSymbolsPERSON-Regular.woff2') format('woff2'),
+        url('MagicalNordicSymbolsPERSON-Regular.woff') format('woff'),
+        url('MagicalNordicSymbolsPERSON-Regular.ttf') format('truetype'),
+        url('MagicalNordicSymbolsPERSON-Regular.svg#MagicalNordicSymbolsPERSON-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Magical Nordic Swash PERSONAL';
+    src: url('MagicalNordicSwashPERSONAL-Regular.eot');
+    src: url('MagicalNordicSwashPERSONAL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MagicalNordicSwashPERSONAL-Regular.woff2') format('woff2'),
+        url('MagicalNordicSwashPERSONAL-Regular.woff') format('woff'),
+        url('MagicalNordicSwashPERSONAL-Regular.ttf') format('truetype'),
+        url('MagicalNordicSwashPERSONAL-Regular.svg#MagicalNordicSwashPERSONAL-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shikamaru';
+    src: url('Shikamaru.eot');
+    src: url('Shikamaru.eot?#iefix') format('embedded-opentype'),
+        url('Shikamaru.woff2') format('woff2'),
+        url('Shikamaru.woff') format('woff'),
+        url('Shikamaru.ttf') format('truetype'),
+        url('Shikamaru.svg#Shikamaru') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shikamaru';
+    src: url('Shikamaru_1.eot');
+    src: url('Shikamaru_1.eot?#iefix') format('embedded-opentype'),
+        url('Shikamaru_1.woff2') format('woff2'),
+        url('Shikamaru_1.woff') format('woff'),
+        url('Shikamaru_1.ttf') format('truetype'),
+        url('Shikamaru_1.svg#Shikamaru') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

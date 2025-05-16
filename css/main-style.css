@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Quicksand:wght@300..700&display=swap');
+@import url("../fonts/stylesheet.css");
+@import url("all.css");
+
+body /*định dạng cho nguyên 1 trang*/
+{
+	background-color: #eeeeee; /*màu nền cho trang web*/
+	color: #043872; /*màu chữ*/ 
+	font-family: "Quicksand", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif" ;
+	font-size: 16px;
+	margin: 0 /*bỏ đẩy lề của toàn trang web*/
+}
+.font-subtitle 
+{
+	font-family: "Mea Culpa", cursive;
+	font-weight: 600;
+	font-style: normal;
+}
+
+h1{ 
+		font-size: 45px;
+		background: #036;
+		background: linear-gradient(#036 60%, red);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+	}
+h2{ font-size: 36px}
+h3{ font-size: 30px}
+h4{ font-size: 24px}
+h5{ font-size: 20px}
+h6{ font-size: 18px}
+h1,h2,h3,h4,h5,h6 {margin-bottom: 0; margin-top: 0; font-family: "Quicksand"}
+
+a{
+	color: orange;
+	text-decoration: none;
+	font-weight: 700
+}
+
+a:hover/*khi dua chuot vao chu co the a - lien ket trang web nao do*/
+{
+	color:#E7A517
+}
+
+/*----------------------- layout bo cuc web-----------------------*/
+.container-fluid
+{
+	width: 100%; padding-left: 16px; padding-right: 16px
+}
+/*------------- mobile first-----------------*/
+.container
+{
+	width:95%; margin: auto
+}
+/*--------------size container cho tablet (ipad)----medium--------------*/
+@media (min-width:600px)
+{
+	.container
+	{
+		width:90%; margin: auto
+	}
+	
+}
+/*--------------size container cho pc 1000----large-----------*/
+@media (min-width:1000px)
+{
+	.container
+	{
+		width:80%; margin: auto
+	}
+}
+
+/*----------chia hệ thống grid 12 column---------*/
+.col-1{ width: 8.3333%; }
+.col-2{ width:16.6666%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width:41.66%}
+.col-6{ width: 50%}
+.col-7{ width:58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+[class*="col-"]/*Chọn tất cả các phần tử HTML có class chứa chuỗi "col-" ở bất kỳ vị trí nào trong tên class*/
+{
+	padding: 15px;
+
+}
+.col-text-center 
+{
+  text-align: center;
+}
+*{box-sizing: border-box}/*Chiều rộng (width) và chiều cao (height) bao gồm cả padding và border; tránh lỗi bố cục*/
+.img-100{width: 100%}/*Mọi phần tử HTML có class là img-100 sẽ có chiều rộng (width) bằng 100% của phần tử chứa nó (container)*/
+.row 
+{
+	display: flex;/*Mọi phần tử có class "row" sẽ trở thành một flex container, cho phép các phần tử con bên trong được sắp xếp hàng ngang*/
+	flex-wrap: wrap;/*Cho phép các item xuống dòng nếu tràn*/
+}
+.card
+{ 
+	background: white;
+	border-radius: 15px; /*bo góc*/
+	overflow: hidden;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	
+}
+.card-body
+{ 
+	padding: 16px
+}
+
+footer
+{
+	background-color:#DDD7D7;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*---------style hệ thống màu chữ cho web---------*/
+.text-primary {color: orange}
+.text-secondary {color: green}
+.text-light {color: #DDDDDD}
+.text-dark {color: #323232}
+
+/*---------style hệ thống màu nền cho web---------*/
+.bg-primary {background-color: cadetblue}
+.bg-secondary {background-color: darksalmon}
+.bg-light {background-color: #DDDDDD}
+.bg-dark {background-color: #323232}
+
+/*---------style hệ thống màu cho nút button---------*/
+.btn-primary
+{
+	background-color: orange;
+	color: black;
+	padding: 8px 16px; /*số liệu đầu tiên cho top & bottom; số liệu thứ 2 cho left & right*/
+	border-radius: 4px;
+}
+.btn-primary:hover 
+{
+	background-color: green;
+	color: white;
+}
+
+.btn-secondary
+{
+	background-color: aqua;
+	color: black;
+	padding: 8px 16px; /*số liệu đầu tiên cho top & bottom; số liệu thứ 2 cho left & right*/
+	border-radius: 4px;
+}
+.btn-secondary:hover 
+{
+	background-color: deeppink;
+	color: white;
+}
+
+.btn-outline-primary
+{
+	border: 1px green solid;
+	color: green;
+	padding: 8px 16px;
+	border-radius: 4px;
+	margin: 2px;
+}
+.btn-outline-primary:hover 
+{
+	background-color: green;
+	color: white;
+}
+
+/*---------style menu căn bản chỉ dành cho pc---------*/
+ul.menu
+{
+	display: flex;
+	padding: 0;
+	list-style: none;
+	justify-content: flex-start;
+}
+ul.menu li a
+{
+	padding: 8px 16px;
+	background-color: darkgreen;
+	color: white;
+	margin: 2px;
+}
+ul.menu li a:hover
+{
+	background-color: orange;
+	color: black;
+}
+
+ul.menu li
+{
+	position: relative;
+}
+
+ul.menu .dropdown-menu
+{
+	width: 200px;
+	position: absolute;
+	left: 20px; top: 0;
+	z-index: 9999;	
+	background: #eee;
+	opacity: 0;
+	transition: all 1s;
+}
+
+ul.menu .dropdown-menu a
+{
+	display: block; /*mỗi a trong dropdown menu sẽ chiếm 1 hàng*/
+}
+ul.menu li:hover>.dropdown-menu
+{
+	left: 0;
+	top: 150%;
+	opacity: 1;
+}
+.banner
+{
+	position: relative;
+	z-index: 1;
+}
+.banner-caption
+{
+	width: 40%;
+	padding: 20px;
+	position: absolute;
+	right: 10%; top: 20%;
+}
+.my-50 {margin-top: 50px; margin-bottom: 50px}
+
